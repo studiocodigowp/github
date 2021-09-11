@@ -1,0 +1,19 @@
+{
+  "name": "version-3.0",
+  "version": "1.0.0",
+  "description": "este un archivo lo hago de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studiocodigowp/github.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studiocodigowp/github/issues"
+  },
+  "homepage": "https://github.com/studiocodigowp/github#readme"
+}

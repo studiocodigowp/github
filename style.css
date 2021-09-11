@@ -14,6 +14,16 @@ font-family: 'Mulish', sans-serif;
 
 }
 
+.lista21 {text-decoration: none;
+    color: #ffffff !important;
+}
+.navbar-toggler {
+    color: #ffffff !important;
+
+}
+
+
+
 a {text-decoration: none;
 color: #ffffff;
 }
@@ -25,6 +35,7 @@ ul {
 .container {
     width: 90%;
     margin: auto;
+    background: none !important;
 }
 
 /*Navegation inicio*/
@@ -55,6 +66,10 @@ ul {
     border-bottom: 2px solid #ffffff;
 }
 
+#acento {
+    border-bottom: 2px solid #ffffff;
+}
+
 .nav-main ul li a {
     padding: 6px;
 }
@@ -73,16 +88,17 @@ hr {margin: 10px 0;
     width: 100%;
     background-color: red;
     height: 550px;
-    background: url('./images/showcase2.jpg') center center/cover;
+    background: url('./images/02.jpg') center center/cover;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-opacity: 0.9;
+    opacity: 0.9;
 }
 
-.btn {
+
+.btn-hero {
     display: inline-block;
     border: 0;
     font-weight: bold;
@@ -220,7 +236,7 @@ main h3 {
     text-transform: uppercase;
 }
 .container1 {
-    background: #fff;
+    background: #e9e9e9;
     width: 90%;
     max-width: 1000px;
     margin: 1.6em auto;
@@ -237,7 +253,7 @@ main h3 {
 .container1 > .sidebar,
 .container1 > .footer,
 .container1 > .relate-post {
-background: #fff;
+background: #e9e9e9;
 padding: 20px;
 border: 1px solid black;
 }
@@ -271,7 +287,7 @@ border: 1px solid black;
 
 .container1 > .sidebar {
     grid-column: span 2;
-    background: #485470;
+    background: #a7a7a7;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -285,7 +301,7 @@ margin-top: 5px;
 }
 
 .container1 > .relate-post {
-    background: #2d3436;
+    background: #222222;
     color: #ffffff;
     height: 180px;
     display: flex;
@@ -399,6 +415,38 @@ text-align: center;
     text-align: center;
     margin: 0 0 1rem 0;
 }
+
+/*Servicios*/
+@media(man-width: 780px) {
+    #intro {
+    width: 90% !important;
+}
+.servicio-fila {
+width: 100% !important;
+
+}
+}
+
+/* servicios*/
+@media (max-width: 768px){
+#intro {
+    width: 90% !important;
+}
+.servicio-fila {
+    width: 100% !important;
+    text-align: center;
+}
+}
+
+@media (max-width: 576px) {
+    .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    }
+}
+
+
+
 
 /* LARGE SIZE */
 @media(min-width: 700px) {
