@@ -85,3 +85,7 @@
             grid-row-start: span 1;
         }
     }
+
+    @media(max-width:767px){
+        #ajusteh2{font-size: 14px; }
+    }
