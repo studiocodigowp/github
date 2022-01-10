@@ -449,10 +449,10 @@ main h3 {
   .contact-info p {
     text-align: left; } }
 
-.titulo1 {
-  font-size: 26px; }
+.texto1 {
+  font-size: 28px; }
 
-.titulo2 {
+.texto2 {
   font-size: 22px; }
 
 body {
@@ -521,7 +521,7 @@ hr {
   width: 100%;
   background-color: red;
   height: 550px;
-  background: url("../images/02.jpg") center center/cover;
+  background: url("../images/04.jpg") center center/cover;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
