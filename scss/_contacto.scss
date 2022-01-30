@@ -24,6 +24,7 @@
     background: #222222;
 }
 
+
 .contact-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -70,10 +71,14 @@
 }
 /* CONTACT INFO */
 .contact-info {
-    background: #000;
+    background: #1e1427;
 }
 
 .contact-info h4, .contact-info ul, .contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
 }
+
+@media(max-width: 375px){
+    
+    }

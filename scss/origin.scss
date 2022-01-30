@@ -6,6 +6,8 @@
 @import "_blog";
 @import "_contacto";
 @import "_servicios";
+@import "_login";
+@import "_preload";
 
 .texto1 {
     font-size: 28px;
@@ -101,6 +103,7 @@ body {
             align-items: center;
             justify-content: flex-end;
             opacity: 0.9;
+            box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
             h2, p {
                 margin-bottom: 20px;
                 }
